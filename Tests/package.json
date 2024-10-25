@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-webapp-tests",
+  "version": "0.0.0",
+  "description": "nodejs-webapp-tests",
+  "author": {
+    "name": "shrer"
+  },
+  "dependencies": {
+    "applicationinsights": "^1.8.10",
+ depfu/update/Tests/npm/gulp-4.0.2
+    "gulp": "^4.0.2",
+=======
+    "gulp": "^3.9.1",
+depfu/update/Tests/npm/mocha-junit-reporter-2.0.0
+ master
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^2.0.0",
+=======
+depfu/update/Tests/npm/mocha-8.3.2
+    "mocha": "^8.3.2",
+    "mocha-junit-reporter": "^1.18.0",
+=======
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.23.3",
+       master
+       master
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "natives": "^1.1.6"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter mocha-junit-reporter --reporter-options mochaFile=../TestResults/TEST-RESULT.xml"
+  }
+}
