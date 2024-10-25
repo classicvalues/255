@@ -1,0 +1,39 @@
+{
+  "name": "webapp",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "applicationinsights": "2.3.6",
+    "ejs": "3.1.9",
+    "grunt": "1.5.3",
+    "grunt-contrib-clean": "2.0.1",
+    "grunt-contrib-coffee": "2.1.0",
+    "grunt-contrib-concat": "2.1.0",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-cssmin": "4.0.0",
+    "grunt-contrib-jst": "2.0.0",
+    "grunt-contrib-less": "3.0.0",
+    "grunt-contrib-uglify": "5.2.2",
+    "grunt-contrib-watch": "1.1.0",
+    "grunt-sails-linker": "1.0.4",
+    "grunt-sync": "0.8.2",
+    "include-all": "4.0.3",
+    "rc": "1.2.8",
+    "sails": "1.5.3",
+    "sails-disk": "2.1.2",
+    "natives": "1.1.6"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/webapp.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": ""
+}
